@@ -16,20 +16,17 @@ nav a {
     color: gold;
     text-decoration: none;
 }
-hero_msg h1 {
+#hero_msg h1 {
     text-align: center;
 }
-hero_msg h4 {
+#hero_msg h4 {
     text-align: center;
 }
-button-box {
+.button-box {
     text-align: center;
 }
 main section {
     text-align: center;
-}
-background {
-    height: 725px;
 }
 body {
     background-color: cadetblue;
