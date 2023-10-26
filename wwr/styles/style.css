@@ -10,6 +10,8 @@ h1, h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .icon {
     width: 80px;
@@ -20,6 +22,10 @@ h1, h2 {
 }
 main section img {
     box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
     text-align: center;
@@ -52,6 +58,8 @@ body {
 }
 header {
     background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover{
     background-color: antiquewhite;
