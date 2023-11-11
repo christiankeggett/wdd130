@@ -108,6 +108,43 @@ h2 {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+#river-grid {
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#salmon {
+    background-color: azure;
+    padding: 35px;
+    margin: 70px;
+    grid-row: 1/2;
+}
+.salmonimg {
+    float: left;
+    margin: 20px;
+}
+#grey {
+    background-color: azure;
+    padding: 35px;
+    margin: 70px;
+    grid-row: 2/3;
+}
+.greyimg {
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: 225px;
+}
+#grand {
+    background-color: azure;
+    padding: 35px;
+    margin: 70px;
+    grid-row: 3/4;
+}
+.grandimg {
+    float: left;
+    margin: 20px;
+    width: 275px;
+    height: 225px;
+}
 .card-img {
     border: 10px solid aliceblue;
     width: 100%;
