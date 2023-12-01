@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RnBinfo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="DryOar logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="artists.html">Artists</a>
+            <a href="info.html">Info</a>
+            <a href="site-plan.html">Site Plan</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+        <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<footer>
+    <p>RnBinfo &copy; 2023 - Christian Eggett</p>
+    <p><a href="site-plan.html">Site Plan</a></p>
+    <p><a href="contactus.html">Contact Us</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
