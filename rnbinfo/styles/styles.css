@@ -1,195 +1,210 @@
-/* Reset some default margin and padding for consistency */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+/* ... Existing CSS ... */
 
-/* Set a background color for the body */
+/* New styles for the provided HTML */
+
+/* Style the main content in the body */
 body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: lightgray;
 }
 
 /* Style the content container */
 #content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Style the header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
 /* Style the logo */
 #logo-link {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo {
-    width: 100px; /* Adjust the width as needed */
-    height: auto;
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
 }
 
 /* Style the navigation menu */
 nav {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 /* Style the main content */
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Style the images in each section */
 main img {
-    float: left; /* Float the images to the left */
-    margin-right: 20px; /* Adjust the margin as needed for spacing */
-    max-width: 300px; /* Adjust the maximum width of the image as needed */
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  float: left; /* Float the images to the left */
+  margin-right: 20px; /* Adjust the margin as needed for spacing */
+  max-width: 300px; /* Adjust the maximum width of the image as needed */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 /* Clear the float after the images */
 main div::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Style the paragraphs in the main content */
 main div {
-    margin: 0 auto; /* Center the sections */
-    margin-bottom: 20px;
-    padding: 30px;
-    border-radius: 8px;
-    max-width: 800px; /* Adjust the max-width as needed */
-    width: 80%; /* Adjust the width as needed */
-    box-sizing: border-box;
+  margin: 0 auto; /* Center the sections */
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 800px; /* Adjust the max-width as needed */
+  width: 80%; /* Adjust the width as needed */
+  box-sizing: border-box;
 }
 
 .first {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 .second {
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
 }
 .third {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
+
 /* Style the paragraphs in the main content */
 main p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    color: #333;
-    font-size: 24px; /* Increased font size */
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #333;
+  font-size: 24px; /* Increased font size */
 }
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* Style the footer links */
 footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 /* Style the social media icons */
 .social {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .social img {
-    width: 30px; /* Adjust the width as needed */
-    height: auto;
-    margin-right: 10px;
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
 }
+
 /* Bordered form */
 form {
-  border: 3px solid #f1f1f1;
+border: 3px solid #f1f1f1;
 }
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
 }
 
 /* Center the avatar image inside this container */
 .imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
+text-align: center;
+margin: 24px 0 12px 0;
 }
 
 /* Avatar image */
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+width: 40%;
+border-radius: 50%;
 }
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+padding: 16px;
 }
 
 /* The "Forgot password" text */
 span.psw {
-  float: right;
-  padding-top: 16px;
+float: right;
+padding-top: 16px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
+span.psw {
+  display: block;
+  float: none;
 }
+.cancelbtn {
+  width: 100%;
+}
+}
+
+
+/* Style the paragraphs in the main content */
+main div.first {
+  background-color: aliceblue;
+}
+
+main div.second {
+  background-color: blanchedalmond;
+}
+
+main div.third {
+  background-color: lightcoral; /* Choose a color for the third section */
+}
+
+/* ... Rest of the CSS ... */
